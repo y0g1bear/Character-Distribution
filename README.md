@@ -7,7 +7,8 @@ in a given sample of text.
 
 Output of your program should look like this:
 
-```Please enter a string of text (the bigger the better): <em>The rain in Spain stays mainly in the plain.</em>
+```
+Please enter a string of text (the bigger the better): *The rain in Spain stays mainly in the plain.*
 The distribution of characters in "The rain in Spain stays mainly in the plain." is:
 iiiiii
 nnnnnn
