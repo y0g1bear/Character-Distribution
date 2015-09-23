@@ -2,8 +2,8 @@
 
 The purpose of this challenge is to gain proficiency with looping, decision making and lists.
 
-Write and submit a Python program that computes and displays the distribution of characters 
-in a given sample of text.
+Write and submit a Python program [distribution.py](./distribution.py)that computes and displays 
+the distribution of characters in a given sample of text.
 
 Output of your program should look like this:
 
