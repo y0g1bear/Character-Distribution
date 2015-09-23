@@ -37,8 +37,11 @@ Notice about this example:
 There are a few techniques or tricks that you may find handy when working on this challenge. 
 If you see something here that sounds useful, feel free to learn more about it!
 
-* ```python
-  'a string has several characters'.count('a')``` will return 5, which is the number 
+* The code: 
+  ```python
+  'a string has several characters'.count('a')
+  ``` 
+  will return 5, which is the number 
   of times the character 'a' appears in the string.
 * ```python
   zip([1,4,2],['a','z','q'])``` will return an iterator for generating a list of *tuples* 
