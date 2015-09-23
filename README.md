@@ -37,18 +37,13 @@ Notice about this example:
 There are a few techniques or tricks that you may find handy when working on this challenge. 
 If you see something here that sounds useful, feel free to learn more about it!
 
-* The code: 
-  ```python
-  'a string has several characters'.count('a')
-  ``` 
-  will return 5, which is the number 
-  of times the character 'a' appears in the string.
-* ```python
-  zip([1,4,2],['a','z','q'])``` will return an iterator for generating a list of *tuples* 
-  (another type of list) like this: ```[(1, 'a'), (4, 'z'), (2, 'q')]```
-* If ```mylist``` is a list like ```[435, 2, 45, 2]``` then
-  ```python
-  mylist.sort()``` will change it to: ```[2, 2, 45, 435]```
+* The code: ```'a string has several characters'.count('a')``` 
+  will return 5, which is the number of times the character 'a' appears in the string.
+* The code: ```zip([1,4,2],['a','z','q'])``` 
+  will return an iterator for generating a list of *tuples* (another type of list) like 
+  this: ```[(1, 'a'), (4, 'z'), (2, 'q')]```
+* If ```mylist``` is a list like ```[435, 2, 45, 2]``` then ```mylist.sort()``` 
+  will change it to: ```[2, 2, 45, 435]```
   
   
             <li>If <code>mylist</code> is a list like [435, 2, 45, 2]</code> then
