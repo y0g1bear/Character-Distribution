@@ -2,7 +2,7 @@
 
 The purpose of this challenge is to gain proficiency with looping, decision making and lists.
 
-Write and submit a Python program [distribution.py](./distribution.py)that computes and displays 
+Write and submit a Python program [distribution.py](./distribution.py) that computes and displays 
 the distribution of characters in a given sample of text.
 
 Output of your program should look like this:
@@ -26,7 +26,7 @@ r
 
 Notice about this example:
 
-* The text: ```The rain ... plain``` is provided by the user as **input** to your program.
+* The text: `The rain ... plain` is provided by the user as **input** to your program.
 * Uppercase characters are converted to lowercase
 * Spaces and punctuation marks are ignored completely.
 * Characters that are more common appear first in the list.
