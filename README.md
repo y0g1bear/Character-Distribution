@@ -1,4 +1,4 @@
-# Character Distribution
+# Character Distribution (Level II)
 
 The purpose of this challenge is to gain proficiency with looping, decision making and lists.
 
