@@ -10,3 +10,4 @@ cd ..
 
 # hope we hit three distinct cases in random testing!
 python tests/test.py ${TESTMODULE}
+python tests/test.py ${TESTMODULE}
