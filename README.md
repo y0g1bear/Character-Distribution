@@ -8,7 +8,7 @@ in a given sample of text.
 Output of your program should look like this:
 
 ```
-Please enter a string of text (the bigger the better): *The rain in Spain stays mainly in the plain.*
+Please enter a string of text (the bigger the better): The rain in Spain stays mainly in the plain.
 The distribution of characters in "The rain in Spain stays mainly in the plain." is:
 iiiiii
 nnnnnn
@@ -26,6 +26,7 @@ r
 
 Notice about this example:
 
+* The text: ```The rain ... plain``` is provided by the user as **input** to your program.
 * Uppercase characters are converted to lowercase
 * Spaces and punctuation marks are ignored completely.
 * Characters that are more common appear first in the list.
@@ -41,18 +42,15 @@ If you see something here that sounds useful, feel free to learn more about it!
   will return 5, which is the number of times the character 'a' appears in the string.
 * The code: ```zip([1,4,2],['a','z','q'])``` 
   will return an iterator for generating a list of *tuples* (another type of list) like 
-  this: ```[(1, 'a'), (4, 'z'), (2, 'q')]```
+  this: ```[(1, 'a'), (4, 'z'), (2, 'q')]```.
 * If ```mylist``` is a list like ```[435, 2, 45, 2]``` then ```mylist.sort()``` 
-  will change it to: ```[2, 2, 45, 435]```
-  
-  
-            <li>If <code>mylist</code> is a list like [435, 2, 45, 2]</code> then
-                <code class="prettyprint lang-py">mylist.append(99)</code> will change it to: [435, 2, 45, 2, 99]</li>
-            <li>If <code>mylist</code> is a list like [435, 2, 45, 2]</code> then mylist[-1] will return 2, the last
-            element in the list.</li>
-            <li>You can get the length of a string, or number of elements in a list using the builtin
-            <code class="prettyprint lang-py">len()</code> function. For example:
-            <code class="prettyprint lang-py">len([435, 2, 45, 2])</code> will return 4.</li>
-            <li>If you <code class="prettyprint lang-py">import string</code> then use
-            <code class="prettyprint lang-py">string.ascii_lowercase</code> to get a string with the letters a-z in it.</li>
-        </ul>
+  will change it to: ```[2, 2, 45, 435]```.
+* If ```mylist``` is a list like [435, 2, 45, 2] then ```mylist.append(99)``` will change it 
+  to: ```[435, 2, 45, 2, 99]```.
+* If ```mylist``` is a list like ```[435, 2, 45, 2]``` then ```mylist[-1]``` will return 2, the last
+  element in the list.
+* You can get the length of a string, or number of elements in a list using the builtin
+  ```len()``` function. For example:
+  ```len([435, 2, 45, 2])``` will return 4.
+* If you ```import string``` then use ```string.ascii_lowercase``` to get a string with the 
+  letters a-z in it.
