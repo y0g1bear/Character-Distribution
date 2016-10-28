@@ -41,3 +41,6 @@ harambe = ('The ditribution of characters in "'  + we +  '" is:')
 print(harambe)
 
 wesplit = we.split()
+
+weord = wesplit.sort()
+print(weord)
