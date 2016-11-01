@@ -39,8 +39,10 @@ Notice about this example:
 we = input("Please enter a string of text (the bigger the better): ")
 harambe = ('The ditribution of characters in "'  + we +  '" is:')
 print(harambe)
-
+weii =  string.ascii_lowercase
 wesplit = we.split()
 
 weord = wesplit.sort()
 print(weord)
+
+
