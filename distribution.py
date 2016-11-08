@@ -39,14 +39,10 @@ Notice about this example:
 we = input("Please enter a string of text (the bigger the better): ")
 harambe = ('The ditribution of characters in "'  + we +  '" is:')
 print(harambe)
+letters = []
 wesplit = we.split()
-alph = int('a','b','c','d','e','f','g','h','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z')
+alph = ('a','b','c','d','e','f','g','h','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z')
 for e in alph:
-    alph[e] += wesplit
-wesplit = sorted(alph)
-
-weord = wesplit.sort()
-print(weord)
-
-
-
+    letters.append(e*we.count(e))
+    
+print(letters)
