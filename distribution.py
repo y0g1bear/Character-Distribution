@@ -43,8 +43,10 @@ letters = []
 wesplit = we.split()
 alph = ('a','b','c','d','e','f','g','h','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z')
 for e in alph:
-    letters.append(e*we.count(e))
+    school = we.count(e)
+    if not school == 0:
+        letters.append(e*we.count(e))
     
-print(letters)
+        
 for x in letters:
     print(x)
