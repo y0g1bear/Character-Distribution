@@ -46,3 +46,5 @@ for e in alph:
     letters.append(e*we.count(e))
     
 print(letters)
+for x in letters:
+    print(x)
