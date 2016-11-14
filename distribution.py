@@ -46,7 +46,7 @@ for e in alph:
     school = we.count(e)
     if not school == 0:
         letters.append(e*we.count(e))
-    
-        
 for x in letters:
     print(x)
+three = we.sort()
+print(three)
