@@ -48,5 +48,13 @@ for e in alph:
         letters.append(e*we.count(e))
 for x in letters:
     print(x)
-three = we.sort()
-print(three)
+for l in range(26):
+    jum = 0 
+    while jum < len(letters)-1:
+        wax = letters[jum]
+        letters[jum]= letters[jum+1]
+        letters[jum+1] = wax
+    jum +=1
+    
+for g in letters:
+    print(c)
