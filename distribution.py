@@ -48,6 +48,7 @@ for e in alph:
         letters.append(e*we.count(e))
 for x in letters:
     print(x)
+letters.
 for l in range(26):
     jum = 0 
     while jum < len(letters)-1:
