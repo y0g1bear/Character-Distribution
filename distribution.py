@@ -39,13 +39,13 @@ Notice about this example:
 we = input("Please enter a string of text (the bigger the better): ")
 harambe = ('The distribution of characters in "'  + we +  '" is:')
 print(harambe)
+we = we.lower()
 letters = []
-wesplit = we.split()
 alph = ('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z')
 for e in alph:
     school = we.count(e)
     if not school == 0:
-        letters.append(e*we.count(e))
+        letters.append(e*school)
 
 
 for l in range(26):
