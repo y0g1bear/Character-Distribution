@@ -37,7 +37,7 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 we = input("Please enter a string of text (the bigger the better): ")
-harambe = ('The ditribution of characters in "'  + we +  '" is:')
+harambe = ('The distribution of characters in "'  + we +  '" is:')
 print(harambe)
 letters = []
 wesplit = we.split()
@@ -46,16 +46,16 @@ for e in alph:
     school = we.count(e)
     if not school == 0:
         letters.append(e*we.count(e))
-for x in letters:
-    print(x)
-letters.
+
+
 for l in range(26):
     jum = 0 
     while jum < len(letters)-1:
-        wax = letters[jum]
-        letters[jum]= letters[jum+1]
-        letters[jum+1] = wax
-    jum +=1
+        if len(letters[jum]) < len(letters[jum+1]):
+            wax = letters[jum]
+            letters[jum]= letters[jum+1]
+            letters[jum+1] = wax
+        jum +=1
     
 for g in letters:
-    print(c)
+    print(g)
